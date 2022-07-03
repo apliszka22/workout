@@ -24,7 +24,7 @@ class ExchangeRate:
                         if d['code'] == code:
                             currency = d['mid']
 
-        ## BODY TO BE WRITTEN THAT extracts currency from self.table for provided code
+        ### BODY TO BE WRITTEN THAT extracts currency from self.table for provided code
         return currency
 
 if __name__ == "__main__":
